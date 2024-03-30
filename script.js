@@ -62,6 +62,6 @@ request.onload = function () {
     return country.currencies && country.currencies.USD;
   });
   countriesUSD.forEach((country) => {
-    console.log(`${country.name.common}`);
+    console.log(`${country.name.common} "$"`);
   });
 };
